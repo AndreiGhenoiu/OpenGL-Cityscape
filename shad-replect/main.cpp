@@ -1,5 +1,7 @@
-
 //#include <windows.h>
+//Program by Andrei Ghenoiu
+//Fall 2011 - Vermont Technical College - Computer Graphics
+
 #ifdef __APPLE__
 #include <GLUT/glut.h>
 #else
