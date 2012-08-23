@@ -1,4 +1,6 @@
-
+//Program by Andrei Ghenoiu
+//Fall 2011 - Vermont Technical College - Computer Graphics
+//contact me at andrei_stefang@yahoo.com if you have any questions
 
 void FreeTexture( GLuint texture )
 {
@@ -19,7 +21,7 @@ GLuint LoadTexture( const char * filename, int width, int height )
     fclose( file );
 
     glGenTextures( 1, &texture ); //generate the texture with the loaded data
-    glBindTexture( GL_TEXTURE_2D, texture ); //bind the texture to it’s array
+    glBindTexture( GL_TEXTURE_2D, texture ); //bind the texture to itï¿½s array
     glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE ); //set texture environment parameters
 
     glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST );
