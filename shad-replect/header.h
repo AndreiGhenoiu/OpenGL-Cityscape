@@ -2,6 +2,8 @@
 //Fall 2011 - Vermont Technical College - Computer Graphics
 //contact me at andrei_stefang@yahoo.com if you have any questions
 
+//refletion done using code from Swiftless Tutorials - http://www.swiftless.com/tutorials/opengl/basic_reflection.html
+
 void FreeTexture( GLuint texture )
 {
   glDeleteTextures( 1, &texture );
